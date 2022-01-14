@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>| Feedback Form | Kisan Dwar |</title>
+<!--Meta tags -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!--External css-->
+<link rel="stylesheet" href="Css_Files/feedback.css" type="text/css" >
+</head>
+<body>
+<div class="container-fluid">
+<header><h1 class="text-center">Please Fill Kisan Dwar Feedback Form</h1></header>
+<form>
+<fieldset id="first">
+<legend class="required"> Required </legend>
+<label for="user"><b> Username: </b><br />
+<input id="user" type="text" name="Username" maxlength="100" size="30" required="required" /></label><br />
+<label for="mail"><b> Email I'd: </b><br />
+<input id="mail"type="email" name="mailId" maxlength="110" size="30" required="required" /></label>
+</fieldset><br />
+<fieldset id="second">
+<legend>Select One Of The Following Option</legend>
+<label><b>How Likely Would You Recommend This Website To Your Friends.</b></label><br>
+<input type="radio" name="recommend" value="likely" /> <b>Likely</b>
+<input type="radio" name="recommend" value="veryLikely" /> <b>Very Likely</b>
+<input type="radio" name="recommend" value="notInterested" /> <b>Not Interested</b>
+<input type="radio" name="recommend" value="mayBe" /> <b>May Be<b><br />
+<label><b>Would You Like To Visit This Website Again.</b></label><br />
+<input type="checkbox" name="visit"  value="yes" /> <b>Yes</b>
+<input type="checkbox" name="visit"  value="yes" /> <b>No</b>
+<input type="checkbox" name="visit" value="no" /> <b>May Be</b><br />
+<label><b>Does This Website Resolves Your Problem/Queries.</b></label><br />
+<input type="checkbox" name="problem" value="yes" /> <b>Yes</b>
+<input type="checkbox" name="problem" value="no" /> <b>No</b>
+<input type="checkbox" name="problem" value="don'tKnow" /> <b>Don"t Know</b><br />
+<label><b>[Out Of 5  star] How Much You Would Like To Give On Overall Functionality/Performance.</b></label><br />
+<input type="radio" name="functionality" value="5star" /> <b>5 Star</b>
+<input type="radio" name="functionality" value="4star" /> <b>4 Star</b>
+<input type="radio" name="functionality" value="3star" /> <b>3 Star</b>
+<input type="radio" name="functionality" value="2star" /> <b>2 Star</b>
+<input type="radio" name="functionality" value="1star" /> <b>1 Star</b>
+</fieldset><br />
+<fieldset class="third" id="third">
+<h3><p>How Did You Come To Know About This Website!
+ <select id="know" name="knowAbout">
+ <option value="google" selected="selected"> Google </option>
+ <option value="socialMedia" > Social Media </option>
+ <option value="friends" > Friends </option>
+ <option value="advertisement" > Advertisement </option>
+ <option value="otherSources" > Other Sources </option>
+ </select>
+ </p>
+ <p>Choose Your Browser From The List:
+ <input list="browsers" name="browser" id="browser">
+ <datalist id="browsers">
+ <option class="eight" value="Firefox">
+ <option class="eight" value="Chrome">
+ <option class="eight" value="Opera">
+ <option class="eight" value="Internet Explorer">
+ <option class="eight" value="Microsot Edge">
+ </datalist>
+ </p></h3>
+ </fieldset>
+ <fieldset  id="four">
+<legend>Any Suggesations Would You Preferred To Give.</legend>
+<textarea name="suggestions" rows="6" cols="80" id="area" placeholder=" What Suggestions You Are Willing To Give ....?"></textarea>
+</fieldset>
+<br />
+<fieldset id="five">
+<h2><i>
+<input type="checkbox" name="signMe" value="signMe">Sign Me Up For Email Updates.</i></h2>
+<input class="image" type="image" src="images/submit.jpg" height="55" width="330" />
+</fieldset>
+</form>
+<footer>
+<h3 id="copyright">|Kisan Dwar &copy 2021 Pvt Ltd &reg All Right Reserved.|<br />|View Our Tearms Of Use &amp; Privacy Policy.|</h3>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

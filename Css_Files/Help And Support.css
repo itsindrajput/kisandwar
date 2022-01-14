@@ -1,0 +1,66 @@
+body{
+	background-color: rgb(236, 226, 131);
+	padding: 6%;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+h2{
+    -moz-box-shadow: -7px -10px 2px rgb(64,128,128);
+	-webkit-box-shadow: -7px -10px 2px rgb(64,128,128);
+	box-shadow: -7px -10px 2px rgb(64,128,128);
+	background-color: #ccc;
+	word-spacing: 0.1em;
+	color: rgb(0,0,147);
+    border: 1px inset rgb(64,128,128);
+	margin-bottom: 5%;
+	font-family: Georgia,Arial,sans-serif,Fantasy;
+}
+h4{
+	color: rgb(64,0,64);
+	text-align: justify;
+	font-family: Comic Sans MS,Georgia,Arial;
+}
+#paddingformain{
+	padding: 4%;
+	padding-top: 2%;
+	padding-bottom: 0%;
+}
+#borderdistance{
+	margin-right: 5%;
+	margin-bottom: 15px;
+}
+
+main{
+    color: rgb(128,0,64);
+	font-size: 21px;
+	font-family: Verdana,Arial,sans-serif;
+}
+a{
+	font-family: Times,Cursive,sans-serif;
+}
+.rish{
+	color: rgb(0,215,107);
+	font-weight: bold;
+	font-size: 21px;
+	word-spacing: 0.1em;
+}
+.rishabh{
+	color: darkcyan;
+	margin-top: 2%;
+	font-weight: bold;
+	font-size: 23px;
+	word-spacing: 0.1em;
+}
+.icon{
+	font-size: 27px;
+	word-spacing: 0.3em;
+}
+i:hover, a:hover{
+	color: rgb(255,0,128);
+	
+	text-decoration: none;
+}
+#copyright{
+	color: red;
+	margin-top: 0.5%;
+}

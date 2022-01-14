@@ -1,0 +1,79 @@
+body{
+	background-color: rgb(204,255,255);
+	padding: 8%;
+	padding-top: 4%;
+	padding-bottom: 2%;
+}
+h2{
+	text-align: center;
+    font-family: Georgia,Arial,sans-sarif;
+	font-weight: bold;
+	word-spacing: 0.2em;
+	color: rgb(183,0,0);
+	
+}
+h4{
+	word-spacing: 0.1em;
+	color: blue;
+	text-align: justify;
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+h3{
+	color: rgb(64,0,128);
+}
+legend{
+	font-family: cambria,century,sans-sarif;
+	margin-top: 55px;
+	margin-bottom: 20px;
+	text-align: justify;
+	line-height: 1.4em;
+	font-size: 26px;
+	word-spacing: 0.2em;
+	color: blue;
+}
+p{
+	font-family: sans-sarif,arial,century;
+	font-size: 22px;
+	font-weight: medium;
+	text-align: justify;
+	word-spacing: 0.1em;
+	line-height: 1.6em;
+}
+#developer{
+	font-size: 22px;
+	font-family: Georgia,arial,sans-sarif;
+	font-weight: bold;
+	word-spacing: 0.1em;
+	color: blue;
+}
+#developer:visited{
+	color: black;
+}
+#developer:hover{
+	color: rgb(128,0,128);
+}
+.rish{
+	color: deeppink;
+	font-weight: bold;
+	font-size: 21px;
+	word-spacing: 0.1em;
+}
+.rishabh{
+	color: brown;
+	margin-top: 4%;
+	font-weight: bold;
+	font-size: 23px;
+	word-spacing: 0.1em;
+}
+.icon{
+	font-size: 27px;
+	word-spacing: 0.3em;
+}
+i:hover{
+	color: rgb(255,128,0);
+}
+#copyright{
+	color: red;
+	margin-top: 0.5%;
+}

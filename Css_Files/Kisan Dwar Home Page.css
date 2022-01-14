@@ -1,0 +1,154 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-color: rgb(50, 159, 223);
+}
+
+.jumbotron{
+	background-color:rgb(120, 233, 44);
+	text-align: center;
+	margin-top: 20px;
+}
+h1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+	font-family: Verdana;
+}
+
+
+/* Navbar Css beigns here */
+
+#navbarstyle{
+	background-color:rgb(4, 70, 10);
+    margin-bottom: 17px;
+	}
+
+#actives:hover{
+	background-color: rgb(10, 168, 94);
+	font-size: 16px;
+}
+
+#actives:active{
+	border: 2px solid cyan;
+}
+
+#actives:focus{
+	border-color: cyan;
+}
+
+#actives{
+	width: 95px;
+	color: white;
+	font-size: 17px;
+	border: 1px ridge pink;
+	border-radius: 6px;
+	text-align: center;
+	font-family: Cambria,Georgia,arial;
+	margin-bottom: 3px;
+}
+address rish{
+	font-size: 19px;
+}
+
+
+
+.explore:hover{
+	background-color: #ccc;
+}
+.explore:focus{
+	background-color: darkcyan;
+}
+#dropmenu{
+	margin-right: 20px;
+	margin-top: 2px;
+}
+/* Navbar Css ends here */
+
+nav{
+	font-weight: bold;
+}
+
+
+
+/* reset our lists to remove bullet points and padding */
+.list{
+padding:0px;
+margin:0px;
+}
+
+.mainmenu, .submenu {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+font-size: 18px;
+text-align: center;
+display:block;
+background-color: rgb(63, 21, 214);
+text-decoration: none;
+padding: 10px;
+color: rgb(248, 247, 247);
+}
+
+
+.mainmenu a:hover {
+	background-color: yellowgreen;
+}
+
+
+.mainmenu li:hover .submenu {
+max-height: 200px;
+}
+
+
+.submenu a {
+  background-color: darkcyan;
+  transition: all .2s ease-in-out;
+}
+
+.submenu a:hover {
+  background-color:rgb(196, 33, 4);
+  transform: scale(1.1);
+  font-size:18px;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+}
+
+.icon-bar{
+	float: both;
+	word-spacing: 0.7em;
+	text-align: center;
+}
+.list-unstyled{
+	font-size: 18px;
+	font-family: Cambria,Georgia,Arial,sans-sarif;
+}
+a{
+	color: rgb(26, 24, 24);
+	text-decoration:none;
+}
+a:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+.footer{
+background-color:rgb(120, 233, 44);
+padding:20px 0px 20px 0px;
+}
+.copyright{
+	font-size: 19px;
+	font-family: Cambria,Georgia,Arial,sans-sarif;
+	word-spacing: 0.2em;
+	text-align: center;
+	color: rgb(0,0,90);
+}
